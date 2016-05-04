@@ -359,11 +359,12 @@ border-bottom: 2px solid #c3c3c3;
 }
 .edu-grid{
 position:relative;
+margin:0 auto;
 }
 .edu-grid img{
 position:absolute;
 top: 25%;
-left: 40%;
+left: 47%;
 }
 /*--//education--*/
 /*--work--*/
@@ -2009,7 +2010,7 @@ border:none;
 	}  
 	.edu-grid img {
 	  top: 25%;
-	  left: 39%;
+	  left: 45%;
 	} 
 	.edu-grid-master h3 {
 	  font-size: 16px;
