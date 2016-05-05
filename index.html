@@ -141,27 +141,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="skill-grids">
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-1"></div>
-						<p>AI</p>
+						<p>HTML5</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-2"></div>
-						<p>PS</p>
+						<p>CSS3</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-3"></div>
-						<p>PHP</p>
+						<p>Javascript</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-4"></div>
-						<p>Html 5 / CSS 3</p>
+						<p>Nodejs/Ajax</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-5"></div>
-						<p>Jquery</p>
+						<p>Less</p>
 					</div>
 					<div class="col-md-2 skills-grid text-center">
 						<div class="circle" id="circles-6"></div>
-						<p>JavaScript</p>
+						<p>PHP</p>
 					</div>
 					<div class="clearfix"> </div>
 				 <script type="text/javascript" src="js/circles.js"></script>
@@ -171,7 +171,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									];
 								for (var i = 1; i <= 7; i++) {
 									var child = document.getElementById('circles-' + i),
-										percentage = 30 + (i * 10);
+										// if(i==4||i==6){
+										// 	percentage=85;
+										// }
+										// else{
+										// 	percentage=90;
+										// }
+										percentage = 96 - (i * 1);
 										
 									Circles.create({
 										id:         child.id,
@@ -252,7 +258,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	
 	<div class="container">
 		<div class="work-info">
-			<h3>培训经历</h3>
+			<h3>培训经验</h3>
 		</div>
 		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
 		<div class="work-grids">
@@ -262,7 +268,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="work-grid-info">
 						<h4>优异客</h4>
 						<!-- <h5>Web 前端工程师</h5> -->
-						<p>在这里系统的学习了web前端的课程，包括HTML5、CSS3、Javascript、Jquery等<br></p>
+						<p>在这里系统的学习了web前端的课程，包括HTML5、CSS3、Javascript、Jquery等<br>
+							独立完成了北京车网互联整个项目</p>
 					</div>
 				</div>
 			</div>
@@ -341,81 +348,76 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div> -->
 <!--//services-->
 <!--portfolio-->
-<!-- <div class="gallery-section text-center" id="portfolio">
+<div class="gallery-section text-center" id="portfolio">
 	<div class="container">
-		<h3>PORTFOLIO</h3>
+		<h3>个人作品</h3>
 		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
-		<p>You think water moves fast? You should see ice. It moves like it has a mind. 
+	<!-- 	<p>You think water moves fast? You should see ice. It moves like it has a mind. 
 		Like it knows it killed the world once and got a taste for murder. After the avalanche, 
 		it took us a week to climb out. Now, I don't know exactly when we turned on each other, 
 		but I know that seven of us survived the slide and only five made it out. Now we took an 
 		oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, 
-		but it wasn't. Nature is lethal but it doesn't hold a candle to man.</p>
+		but it wasn't. Nature is lethal but it doesn't hold a candle to man.</p> -->
 		<div class="gallery-grids">
 			<div class="top-gallery">
 				<div class="col-md-4 gallery-grid gallery1">
-					<a href="images/p1.jpg" class="swipebox"><img src="images/p1.jpg" class="img-responsive" alt="/">
+					<a href="http://fackerzuo.github.io/xiaomiguanwanglianxi" class="swipebox"><img src="images/xiaomi.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
 							<h4>Project Name</h4>
 							<p>WEB DESIGN</p>
-							<div class="button"><a href="images/p1.jpg" class="swipebox">VIEW</a></div>
+							<div class="button"><a href="http://fackerzuo.github.io/xiaomiguanwanglianxi" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
-					<a href="images/p2.jpg" class="swipebox"><img src="images/p2.jpg" class="img-responsive" alt="/">
+					<a href="images/p2.jpg" class="swipebox"><img src="images/jingdong.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
 							<h4>Project Name</h4>
 							<p>WEB DESIGN</p>
-							<div class="button"><a href="images/p2.jpg" class="swipebox">VIEW</a></div>
+							<div class="button"><a href="http://fackerzuo.github.io/jingdong" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
-					<a href="images/p3.jpg" class="swipebox"><img src="images/p3.jpg" class="img-responsive" alt="/">
+					<a href="images/p3.jpg" class="swipebox"><img src="images/weilai.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
 							<h4>Project Name</h4>
 							<p>WEB DESIGN</p>
-							<div class="button"><a href="images/p3.jpg" class="swipebox">VIEW</a></div>
+							<div class="button"><a href="http://fackerzuo.github.io/baiduweilai" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
-					<a href="images/p4.jpg" class="swipebox"><img src="images/p4.jpg" class="img-responsive" alt="/">
+					<a href="images/p4.jpg" class="swipebox"><img src="images/pingguo.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
 							<h4>Project Name</h4>
 							<p>WEB DESIGN</p>
-							<div class="button"><a href="images/p4.jpg" class="swipebox">VIEW</a></div>
+							<div class="button"><a href="http://fackerzuo.github.io/apple" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
-					<a href="images/p5.jpg" class="swipebox"><img src="images/p5.jpg" class="img-responsive" alt="/">
+					<a href="images/p5.jpg" class="swipebox"><img src="images/yuqing1.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
 							<h4>Project Name</h4>
 							<p>WEB DESIGN</p>
-							<div class="button"><a href="images/p5.jpg" class="swipebox">VIEW</a></div>
+							<div class="button"><a href="http://fackerzuo.github.io/baiduyuqing" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
-					<a href="images/p6.jpg" class="swipebox"><img src="images/p6.jpg" class="img-responsive" alt="/">
+					<a href="images/p6.jpg" class="swipebox"><img src="images/360mall.jpg" class="img-responsive" alt="/">
 						<div class="textbox">
 							<h4>Project Name</h4>
 							<p>WEB DESIGN</p>
-							<div class="button"><a href="images/p6.jpg" class="swipebox">VIEW</a></div>
+							<div class="button"><a href="http://fackerzuo.github.io/360mall" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="clearfix"> </div>
 			</div>
 				<link rel="stylesheet" href="css/swipebox.css">
-				<script src="js/jquery.swipebox.min.js"></script> 
-					<script type="text/javascript">
-						jQuery(function($) {
-							$(".swipebox").swipebox();
-						});
-					</script>
+				 
 		</div>
 	</div>
-</div> -->
+</div>
 <!--//portfolio-->
 <!--process-->
-<div class="process text-center">
+<!-- <div class="process text-center">
 	<div class="container">
 		<h3>个人作品</h3>
 		<div class="strip text-center"><img src="images/pro.png" alt=" "/></div>
@@ -465,7 +467,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clearfix"></div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!--//process-->
 <!-- <div class="process-back"></div> -->
 <!--testimonials-->
